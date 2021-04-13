@@ -13,7 +13,7 @@
 - **`git checkout -b [본인 깃허브 아이디]` 로 브랜치를 생성하고 이동합니다.**
 - git push --set-upstream origin [본인 깃허브 아이디] 로 깃허브에 브랜치를 push 해줍니다.
 - 수업을 들을 때마다, 공부한 내용을 정리해서 폴더 안의 파일에 업데이트 해주세요.
-- `커밋` 후 `git push origin [본인 깃허브 아이디치]` 를 합니다.
+- `커밋` 후 `git push origin [본인 깃허브 아이디]` 를 합니다.
 
 참조 : [브랜치를 하나 생성하고, push 하는 법](https://ychae-leah.tistory.com/59)
 
