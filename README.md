@@ -18,7 +18,7 @@
 - `커밋` 후 `git push origin [새 브랜치]` 를 하면, 이 깃허브 페이지에서 [본인 아이디 브랜치] 하위의 [새 브랜치]에 반영됩니다.
 
 참조 : [브랜치를 하나 생성하고, push 하는 법](https://ychae-leah.tistory.com/59)
-참조 : [팀 스터디를 위한 Github 코드리뷰 요청 가이드](https://brunch.co.kr/@springboot/343)
+      [팀 스터디를 위한 Github 코드리뷰 요청 가이드](https://brunch.co.kr/@springboot/343)
 
 
 ## 알고리즘 문제를 푸시는 경우
