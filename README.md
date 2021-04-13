@@ -11,6 +11,9 @@
 - **`git checkout -b [본인 깃허브 아이디]` 로 브랜치를 생성하고 이동합니다.**
 - git push --set-upstream origin [본인 깃허브 아이디] 로 깃허브에 브랜치를 push 해줍니다.
 
+<img src="https://user-images.githubusercontent.com/61692777/114558530-bd09b900-9ca5-11eb-984d-d6d7b49bfbd8.png" width="400">
+깃허브 이 부분에서 브랜치를 쉽게 만들 수도 있습니다.
+
 2. 커밋 & 푸시
 
 방법 1 :
