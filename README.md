@@ -1,5 +1,5 @@
 # CS50
-데이비드 말란 교수의 [CS50 (2019)](https://www.boostcourse.org/cs112/joinLectures/41307) 강의를 수강하는 스터디입니다.
+데이비드 말란 교수의 [CS50 (2019)](https://www.boostcourse.org/cs112/joinLectures/41485) 강의를 수강하는 스터디입니다.
 ---
 
 ✨ 목표는 매일, 최소 30분을 투자해서 CS 지식을 익히고 정리하는 것입니다.
