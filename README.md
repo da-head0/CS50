@@ -24,7 +24,8 @@
 
 ## 알고리즘 문제 풀이 사이트 추천 (자유롭게 업데이트 해 주세요)
 - [백준](https://www.acmicpc.net/)
-- [백준 문제집](https://github.com/tony9402/baekjoon)
+- [백준 Python 50 배우기 문제집](https://www.acmicpc.net/workbook/view/459)
+- [백준 코딩테스트 준비 문제집](https://github.com/tony9402/baekjoon)
 - [프로그래머스](https://programmers.co.kr/learn/challenges)
 - [리트코드](https://leetcode.com/explore/learn/) 자료구조 개념을 공부하면서 그에 관한 문제도 같이 풀어볼 수 있음
 - [코딩 테스트 기출 문제 스터디 그룹](https://github.com/CodeTest-StudyGroup/Code-Test-Study)
