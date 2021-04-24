@@ -1,1 +1,29 @@
-gapgap
+
+```
+# you can write to stdout for debugging purposes, e.g.
+# print("this is a debug message")
+
+import re
+
+def solution(N):
+    # write your code in Python 3.6
+    binnum = format(N, 'b') # 0b가 안 붙은 상태에서 이진법 숫자로 변환
+    p = re.compile('10+1') # ''로 감싸주어야 동작한다.
+    # 풀이 1 : '1+1' -> 오답인 이유 : 1과 1사이엔 1도 있어요....
+    zerolist = p.findall(binnum)
+    if not zerolist:
+        return 0
+
+    list2 = []
+    for i in zerolist:
+        j = str(i).strip('1')
+        list2.append(j)
+    list2.sort()
+
+    return len(list2[-1])
+ ```
+ 
+ 소요시간 : 50분 (딴짓하지마...) 
+ 굳이 리스트를 하나 더 만들지 않고 효과적으로 푸는 방법을 배우고 싶다.
+ 이진법으로 바꿔주는 내장함수가 있다는 것,
+ 정규식에서 +를 써서 하나 이상 일치하는 단어를 찾을 수 있다는 것이 재밌었다.
