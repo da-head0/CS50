@@ -35,6 +35,68 @@ printf("hello, %s\n", answer);
 + 프로그래밍에서 = 은 같다는 뜻이 아니라 지정한다라는 뜻 -> 오른쪽의 내용을 왼쪽에 저장한다.
 + %s : 입력값이 들어갈 형식 지정자
 
+### 3) 조건문과 루프
+```C
+int counter = 0;
+counter = counter + 1;
+```
++ int : 정수형 변수 counter를 선언
++ int counter = 0 : counter 변수를 0으로 초기화
++ counter = counter + 1 : counter에 1을 더한 값을 다시 counter에 저장한다.
+  + counter += 1;, counter++; 으로 간결하게 작성할 수 있다.
+
+#### if 조건문
+- == : 일치 연산자 (= 할당연산자와 다름)
+- if, else if, else문
+```C
+if(x < y)
+{
+    printf("x is less than y\n");
+}
+else if(x > y)
+{
+    printf("x is greater than y\n");
+}
+else
+{
+    printf("x is equal to y\n");
+}
+```
+
+
+#### 루프
+##### while 반복문
+```C
+while(true)
+{
+    printf("hello world\n");
+}
+```
++ while(true) : 영원히 반복하는 무한루프
+
+```C
+int i = 0;
+
+while(i < 50)
+{
+    printf("hello world\n");
+    i = i + 1; (i++;)
+}
+```
++ while(i < 50) : i가 50미만이면 반복문을 계속 진행
++ i = i + 1 : i 값 1씩 증가 
+
+##### for 반복문
+- 주어진 일을 계속해서 반복하지만 훨씬 더 기계적
+```C
+for(int counter = 0; i < 50; i++)
+{
+    printf("hello world\n");
+}
+```
+
+
+
 
 
 
