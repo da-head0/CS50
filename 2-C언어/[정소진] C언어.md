@@ -40,8 +40,56 @@
 
 
 
-
 ## 3) 조건문과 루프
+- int
+  `int counter = 0;`
+  - 변수가 정수형일 때
+
+- if
+```c
+if (x < y)
+{
+  printf("x is less than y\n");
+}
+else if (x > y)
+{
+  printf("x is greater than y\n");
+{
+else
+{
+  printf("x is equal to y\n");
+}
+```
+
+- while
+```c
+while (true)
+{
+  printf("hello, world\n");
+}
+```
+```c
+int i = 0;
+while (i < 50(
+{
+  printf("hello, world\n");
+  i++;
+}
+
+- for
+```c
+for (int i = 0; i < 50; i++)
+{
+  printf("hello, world\n");
+}
+```
+  - for (①; ②; ④) { ③ }
+  - 이 순서로 진행된다.
+
+
+
+
+
 ## 4) 자료형, 형식 지정자, 연산자
 ## 5) 사용자 정의 함수, 중첩 루프
 ## 6) 하드웨어의 한계
