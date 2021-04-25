@@ -75,6 +75,7 @@ while (i < 50(
   printf("hello, world\n");
   i++;
 }
+```
 
 - for
 ```c
