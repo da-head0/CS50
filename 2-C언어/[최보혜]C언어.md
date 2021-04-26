@@ -91,7 +91,65 @@ int main(void)
 ```
 
 ## 5. 자료형, 형식 지정자, 연산자
+### 데이터 타입
+- bool: 불리언 표현, (예) True, False, 1, 0, yes, no
+- char: 문자 하나 (예) 'a', 'Z', '?'
+- string: 문자열
+- int: 특정 크기 또는 특정 비트까지의 정수 (예) 5, 28, -3, 0
+- long: 더 큰 크기의 정수
+- float: 부동소수점을 갖는 실수 (예) 3.14, 0.0, -28.56
+- double: 부동소수점을 포함한 더 큰 실수
 
-## 6. 사용자 정의 함수, 중첩 루프
+### 형식 지정자
+- %c : char
+- %f : float, double
+- %i : int
+- %li : long
+- %s : string
+
+### Get 함수
+- get_char
+- get_double
+- get_float
+- get_int
+- get_long
+- get_string
+
+## 6. 사용자 정의 함수
+- 사용자 정의 함수는 사용자가 원하는 특정기능을 구현시킨 함수이다.
+- 사용자 정의 함수를 통해 가독성을 높일 수 있다.
+- 사용자 정의 함수는 보통 main함수 아래에 사용한다. 단, 함수명을 맨 위에 적어줘야 한다.
+
+```C
+#include <stdio.h>
+void cough(void)
+int get_positive_int(void)
+
+int main void()
+{
+    for (int i=0; i<3; i++)
+    {
+        cough();
+    }
+}
+
+//첫번째 사용자 정의 함수
+void cough(void)
+{
+    printf("cough\n");
+}
+
+//두번째 사용자 정의 함수
+int get_positive_int(void) //입력은 없으나 output으로 int형식 출력
+{
+    int n;
+    do
+    {
+        n = get_int("Positive Integer: ");
+    }
+    while (n<1);
+    return n;
+}
+```
 
 ## 7. 하드웨어의 한계
