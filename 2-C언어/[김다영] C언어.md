@@ -94,10 +94,7 @@ for(int counter = 0; i < 50; i++)
     printf("hello world\n");
 }
 ```
-
-
-
-
+### 4) 자료형, 형식 지정자, 연산자 
 
 
 
