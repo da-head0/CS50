@@ -89,8 +89,70 @@ for (int i = 0; i < 50; i++)
 
 
 
-
-
 ## 4) 자료형, 형식 지정자, 연산자
+- datatype(자료형)
+  - bool: 불리언 표현, (예) True, False, 1, 0, yes, no
+  - char: 문자 하나 (예) 'a', 'Z', '?'
+  - string: 문자열
+  - int: 특정 크기 또는 특정 비트까지의 정수 (예) 5, 28, -3, 0
+  - long: 더 큰 크기의 정수
+  - float: 부동소수점을 갖는 실수 (예) 3.14, 0.0, -28.56
+  - double: 부동소수점을 포함한 더 큰 실수
+
+- int.c
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+  int age = get_int("What's your age?\n");
+  printf("You are at least %i days old.\n", age * 365);
+}
+```
+
+- float.c
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+  float price = get_int("What's the price?\n");
+  printf("Your total is %.2f.\n", price * 1.0625);
+}
+```
+
+- parity.c
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+  int n = get_int("n: ");
+  
+  if (n % 2 == 0)
+  {
+    printf("even\n"); // 짝수
+  }
+  else
+  {
+    printf("odd\n"); // 홀수
+  }
+}
+```
+
+- 연산자
+  - +:  더하기
+  - -: 빼기
+  - *: 곱하기
+  - /: 나누기
+  - %: 나머지
+  - &&: 그리고
+  - ||: 또는
+
+- //: 주석
+
 ## 5) 사용자 정의 함수, 중첩 루프
 ## 6) 하드웨어의 한계
