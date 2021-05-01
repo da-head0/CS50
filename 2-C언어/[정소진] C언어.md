@@ -155,4 +155,73 @@ int main(void)
 - //: 주석
 
 ## 5) 사용자 정의 함수, 중첩 루프
+- 사용자 정의 함수
+  - main이 가장 위에 가독성이 좋음.
+  - 하지만 위에서부터 실행되기 때문에 아래처럼 위에 함수를 선언해주어야 함.
+```c
+#include <stdio.h>
+
+int cough(void); // <- 이 부분
+
+int main(void)
+{
+  cough(3);
+}
+
+int cough(int n)
+{
+  for (int i = 0; i < n; i++)
+   {
+      printf("cough\n");
+   }
+}
+```
+
+  - 아래와 같이 함수를 선언할 때 
+    - 함수명 앞의 자료형은 output의 타입을 의미
+    - 괄호() 안의 자료형은 input의 타입을 의미
+    - 입출력이 없다면 void를 입력
+```c
+int get_positive_int(void)
+{
+  int n;
+  do
+  {
+    n = get_int("Positive Integer: ");
+  }
+  while (n < 1);
+  return n;
+}
+```
+  - do-while loop
+    - while 뒤의 괄호 안의 조건이 참일 때 do {}안의 내용을 수행하라는 것
+    - do {} 안의 내용을 적어도 한 번 수행한 뒤, 조건을 체크해서 다시할지 여부를 결정
+    - // while loop는 조건을 먼저 확인 했음 -> 이게 다른 점
+
+- 중첩 루프
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+
+    do
+    {
+        n = get_int("Size: "); # 출력하고 싶은 블록의 폭이 얼마인지 입력
+    }
+    while (n < 1);
+
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            printf("#");
+        }
+        printf("\n");
+    }
+}
+```
+
 ## 6) 하드웨어의 한계
