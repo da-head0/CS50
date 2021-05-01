@@ -121,4 +121,79 @@ for(int counter = 0; i < 50; i++)
 - '||' : 또는
 - '//' : 주석
 
+### 5) 사용자 정의 함수, 중첩 루프
+##### 사용자 정의 함수
+- printf 반복
+```C
+#include <stdio.h>
 
+int main(void)
+{
+    printf("cough\n");
+    printf("cough\n");
+    printf("cough\n");
+}
+```
+- 루프 for 사용
+```C
+#include <stdio.h>
+
+int main(void)
+{
+    for (int i = 0; i < 3; i++)
+    {
+        printf("cough\n")
+    }
+}
+```
+- 함수를 만들어 사용
+```C
+#include <stdio.h>
+void cough(void);
+
+int main(void)
+{
+    for (int i = 0; i < 3; i++)
+    {
+        cough();
+    }
+}
+
+void cough(void)
+{
+    printf("cough\n")
+}
+
+```
++ C언어는 위에서 아래로 실행을 하기 때문에 함수를 main문 아래에 구현하면 위에 선언을 해줘야한다.
++ main문을 아래에 쓰는 것보다 위에 쓰는 것이 좋음.
+
+##### 중첩 루프
+
+```C
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+
+    do
+    {
+        n = get_int("Size: ");
+    }
+    while (n < 1);
+
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            printf("#");
+        }
+        printf("\n");
+    }
+}
+```
++ for 루프를 두 번 중첩해서 돌면서 "#"을 출력.
++ 첫 번째 루프에서는 변수 i를 기준으로 n번 반복하고, 그 안의 내부 루프에서는 변수 j를 기준으로 n번 반복
++ 내부 루프에서는 “#”을 출력하고, 내부 루프가 끝날 때마다 줄바꿈을 수행.
++ 결과적으로, 가로가 n개, 세로가 n개인 “#”이 출력.
