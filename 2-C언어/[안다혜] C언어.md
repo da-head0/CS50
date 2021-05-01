@@ -39,3 +39,28 @@ make string C????)
 ![C언어_210423_210513](https://user-images.githubusercontent.com/61692777/115870375-234ac480-a47a-11eb-8c2a-12b5b92a6389.jpg)
 
  
+ 반복문 if (< y)
+조건문
+{
+printf ("~ 17" 기
+}
+else if C X> Y)
+{
+} printf(" n ina);
+else if (X== Y담연한 것이니 생략 장
+-
+{ printf ( 11x is equal to x\ ");
+}
+while (true)
+{
+매nt (" hello, world In시 기 }
+counter 법 j= counter ++;
+for (int oj :< 50j → i +1)
+{
+printf (" hello, world \n" )j
+}
+세미콜론으로만 구분, 쉼표 안 씀
+for 시업+ o$;< cof itt)
+{
+printf (" 개발 공부는 재미있다! 내"기
+}
