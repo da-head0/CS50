@@ -30,3 +30,5 @@
 - [리트코드](https://leetcode.com/explore/learn/) 자료구조 개념을 공부하면서 그에 관한 문제도 같이 풀어볼 수 있음
 - [코딩 테스트 기출 문제 스터디 그룹](https://github.com/CodeTest-StudyGroup/Code-Test-Study)
 - [Codility + Lesson](https://app.codility.com/programmers/lessons/1-iterations/)
+- [Codeup 파이썬 기초 100제](https://codeup.kr/problemsetsol.php?psid=33)
+- [HackerLank Algorithms](https://www.hackerrank.com/domains/algorithms)
